@@ -1,0 +1,83 @@
+/* เริ่มต้น: สไตล์สำหรับ Card */
+.login-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-style {
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  .input-style:focus {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+  }
+  
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+  }
+  
+  .password-toggle-icon:hover {
+    color: #007bff;
+  }
+  
+  .alert {
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button:focus {
+    box-shadow: none;
+  }
+  
+  button.mb-2 {
+    margin-bottom: 15px;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  /* เพิ่มการตั้งค่าการจัดตำแหน่ง */
+  .container {
+    max-width: 800px; /* ปรับความกว้างของคอนเทนเนอร์ */
+  }
+  
+  .row {
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      max-width: 100%; /* ให้เต็มความกว้างในหน้าจอเล็ก */
+    }
+  
+    .login-card {
+      padding: 20px;
+    }
+  }
+  

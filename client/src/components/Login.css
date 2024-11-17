@@ -1,0 +1,43 @@
+/* Login.css */
+body {
+    background-color: #f7f9fc; /* สีพื้นหลังอ่อน ๆ */
+}
+
+.login-card {
+    border-radius: 15px; /* ให้การ์ดมีขอบมน */
+    background: #ffffff; /* สีพื้นหลังการ์ด */
+    border: none;
+}
+
+h2 {
+    color: #4a4a4a; /* สีฟอนต์เข้มสำหรับชื่อหัวข้อ */
+    font-weight: 700;
+}
+
+.input-style {
+    border-radius: 10px; /* ปรับขอบของ input ให้มน */
+    border: 1px solid #ddd; /* สีขอบที่อ่อน */
+    padding: 10px;
+}
+
+button {
+    border-radius: 10px; /* ปรับปุ่มให้มน */
+}
+
+button:focus, input:focus {
+    box-shadow: none !important; /* ลบเงาเมื่อ focus */
+    outline: none;
+}
+.password-input-container {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
